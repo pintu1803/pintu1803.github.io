@@ -1,0 +1,109 @@
+/* css for different cities here */
+ .cinema-bar {
+  width: 100%; /* Full-width */
+  background-color: #99ccff; 
+  overflow: auto; /* Overflow due to float */
+}
+
+.cinema-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  text-decoration: none;
+  width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: #ff0000; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.cinema-bar a:hover {
+  background-color: #ff9966; /* Add a hover color */
+}
+
+.active-cinema {
+  background-color: #ffcc00; /* Add an active/current color */
+}
+/*layout of welcome message */
+.welcome-message
+{
+  /*width is full */
+  background-color: white;
+  height: auto;
+  text-align: center;
+  border: 1px  solid black;
+  border-radius: 10px;
+}
+.welcome-message p
+{
+  color:#ff7e00;
+  font-size: 30px;
+  padding:0;
+  margin:0;
+}
+.welcome-message h1
+{
+  color:#e3af3d;
+  font-size: 25px;
+  text-align: center;
+  padding:1px;
+  margin:0;
+}
+/* new release */
+.new-release
+{
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: auto;
+}
+.new
+{
+  float: left;
+  background-color:#e3f4b1; 
+  height: auto;
+  width: 300px;
+  margin:36px;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.new p
+{
+  padding: 0;
+  margin:5px;
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+/* footer */
+.cinema-footer
+{
+  border: 1px solid red;
+  border-radius: 3px;
+
+  /*width is full */
+  height: auto;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  background-color:#00ffff ;
+}
+.cinema-footer h1
+{
+  color:  #0040ff  ;
+  font-size: 40px;
+  text-align: center;
+  margin:0;
+  padding: 5px;
+}
+.cinema-footer p
+{
+  color: #ff00ff;
+  font-size: 30px;
+  text-align: center;
+  margin:0;
+  padding: 5px;
+}
