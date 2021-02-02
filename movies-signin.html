@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signin</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="dbmsstyle.css">
+	</title>
+</head>
+<!-- Add icon library -->
+<body>
+<div class="icon-bar">
+
+  <a href="movies-home.html">Home</a>
+  <a href="movies-city.html">City</a>
+  <a class ="active" href="movies-signin.html">SignIn</a>
+  <a href="movies-signup.html">SignUp</a>
+  <a href="movies-aboutus.html">AboutUs</a>
+
+</div>
+
+<div class="signin-counter">
+<p> SignIn your account </p>	
+</div>
+
+<form action="action_page.php" method="post">
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+</div>
+<div class="cancel-button">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="movies-forget-password">password?</a></span>
+  </div>
+</form>
+</body>
+</html>
