@@ -1,0 +1,55 @@
+
+.topics, .foot
+{
+	width: 100%;
+	height: auto;
+	background-color: #e5e1e8;
+	align-items: vertical;
+	display: block;
+
+}
+.foot a
+{
+	float: left;
+	display: table;
+	width: 50%;
+	background-color: #95bcc9;
+	padding:100px 0 100px 0;
+	font-size: 72px;
+}
+a{
+	font-size: 54px;
+	color: green;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: none;
+	float: vertical;
+	display: block;
+	padding: 42px;
+}
+a:hover{
+	color: #4870c7;
+}
+h1{
+	font-size: 30px;
+	color: #e340d3;
+	font-family: arial;
+	text-align: center;
+	padding:20px;
+}
+h2
+{
+	font-size: 40px;
+	text-align: center;
+	color: black;
+	background-color:#d0a3e3;
+	padding:10px;
+	margin:0px;
+}
+img{
+	background-color: #edcaa8;
+	align-content: center;
+	padding-right: 230px;
+	padding-left: 230px;
+	margin:0px;
+}
